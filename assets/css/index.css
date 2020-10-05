@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.head{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/Image\ 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+}
+.navbar{
+    font-weight: 500;
+}
+#ea-logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: #FDC24F;
+}
+#analytics-logo{
+    font-family: 'Montserrat', sans-serif;
+    width:50px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#contact-btn{
+    background-color: #FDC24F;
+    padding: 5px 28px;
+    color: black;
+    border-radius: 6px;
+}
+#navbarSupportedContent{
+    font: normal normal medium 24px/35px Poppins;
+}
+.head-heading{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 110px;
+}
+.head-heading h1{
+    font-size: 55px;
+    font-weight: 600;
+    word-spacing: 8px;
+    margin-bottom: 20px;
+}
+.head-heading h1::before{
+    content: "WELCOME TO";
+    display: block;
+    font-weight: 500;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+.head-heading p{
+    font-size: 20px;
+    word-spacing: 7px;
+    margin-bottom: 22px;
+}
+.head-heading #get-started{
+    color: black;
+    padding: 5px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #FDC24F;
+}
+
+
+
+.about h1, .our-work h1, .brands h1, .testimonial h1{
+    text-align: center;
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #4A4A4A;
+}
+.about p, .our-work p, .brands p, .testimonial p{
+    font-size: 22px;
+    text-align: center;
+    line-height: 25px;
+    color: #414141;
+}
+.about-left img{
+    width: 100%;
+    height: 310px;
+}
+.about-right ul li{
+    color: #707070;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 0px;
+}
+
+.our-work-box{
+    text-align: center;
+    box-shadow: 0px 0px 20px #00000029;
+    padding: 50px 0px;
+}
+.our-work-box img{
+    width:100%;
+    height:100px;
+}
+.our-work-box h3{
+    font-size: 23px;
+    color:#414141;
+    padding: 20px 0px 10px;
+}
+.our-work-box p{
+    font-size: 17px;
+    color:#707070;
+    font-weight: 500;
+    padding: 0px 40px;
+}
+
+
+.brands-box{
+    text-align: center;
+    box-shadow: 0px 0px 15px #00000029;   
+}
+.brands-box img{
+    width: 100%;
+    height: 120px;
+}
+
+
+.testimonial-slider{
+    width: 850px;
+}
+.testimonial-slider img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.testimonial-slider h5{
+    text-align: left;
+    padding: 0px 40px 15px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+}
+.testimonial-slider p{
+    text-align: left;
+    padding-left: 40px;
+    font-size: 17px;
+    font-weight: 100;
+}
+.test-slide{
+    padding: 25px 35px;
+    box-shadow: 0px 0px 25px #00000029;   
+}
+.arrow-btn img{
+    width: 40px;
+    height:40px;
+}
+
+.contact{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/Image\ 6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+.contact h1{
+    font-size: 55px;
+    padding: 10px 0px;
+}
+.contact p{
+    word-spacing: 2px;
+}
+.contact .form-control{
+    background-color: #555561;
+    opacity: 0.6;
+}
+.contact ::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.copyright{
+    background-color: #232331;
+    color: white;
+    padding: 30px 0px;
+    text-align: end;
+    font-size: 15px;
+    font-weight: 500;
+}
